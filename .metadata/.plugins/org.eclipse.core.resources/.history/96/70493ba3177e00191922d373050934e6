@@ -1,0 +1,55 @@
+package exercices;
+
+import java.util.Scanner;
+
+public class PositionDuneLetre {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ajouter une valeur");
+		String test =  sc.nextLine();
+
+		int x = 10 ;
+		int taille = test.length();
+
+		String xc = new String() ;
+		xc = xc.valueOf(x) ;
+		//String variable = test.substring(0,1) ;
+		//System.out.println(variable);
+
+
+
+
+		for(int i  = 0 ; i<taille ; i++)
+		{
+
+
+			String alors =test.substring(i,i+1);
+			if(alors.equals("1") || alors.equals("2") || alors.equals("3") || alors.equals("4")|| alors.equals("5") || alors.equals("6")|| alors.equals("7") || alors.equals("8") || alors.equals("9")|| alors.equals("0"))
+			{
+				System.out.println("ok");
+			}
+			else
+			{
+				System.out.println("Ne pas un nombre");
+			}
+
+
+
+		}
+		;
+		/*
+		if(variable.equals("1") || variable.equals("2"))
+		{
+			System.out.println("ok");
+		}
+		else
+		{
+			System.out.println("Ne pas un nombre");
+		}
+		 */
+	}
+
+}

@@ -1,0 +1,22 @@
+package exercices;
+
+public class ChangementDeVariables2 {
+
+	public static void main(String[] args) {
+
+
+		int i = 12; // création de la variable
+		String j = new String(); // Création du String vide
+		j = j.valueOf(i); // Le sTRing prend la valeur de i
+		// Changement de variable int en String
+		int k = Integer.valueOf(j).intValue(); // k prend la valeur du String j
+		// Changement de variable String en int
+
+		String total = "108" ;
+		int variable  = 10,variable2 = 20; // creation des variables
+		double variablet   = Double.valueOf(total) ; // variable devien un double
+		System.out.println(variablet+variablet);
+
+	}
+
+}

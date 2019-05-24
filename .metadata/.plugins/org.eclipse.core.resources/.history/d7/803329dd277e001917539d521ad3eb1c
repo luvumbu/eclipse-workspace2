@@ -1,0 +1,24 @@
+package exercices;
+
+import java.util.Scanner;
+
+public class Boucles {
+
+	public static void main(String[] args) {
+
+
+		Scanner  test = new Scanner(System.in) ;
+		String variable = test.nextLine() ;
+System.out.println("Donne moi une valeur");
+		while(variable=="o")
+		{
+			variable = test.nextLine() ;
+			System.out.println(variable);
+		}
+
+
+
+	}
+
+
+}

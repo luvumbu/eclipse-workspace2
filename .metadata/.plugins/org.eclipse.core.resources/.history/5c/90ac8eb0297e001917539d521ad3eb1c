@@ -1,0 +1,21 @@
+package exercices;
+
+import java.util.Scanner;
+
+public class Boucles {
+
+	public static void main(String[] args) {
+
+		Scanner clavier = new Scanner(System.in) ;
+		String variable  = "";
+		System.out.println("Debut de programme");
+		while(variable.equals("O"))
+		{
+			variable  = clavier.nextLine();
+			System.out.println("Donne moi un nombre");
+		}
+
+	}
+
+
+}

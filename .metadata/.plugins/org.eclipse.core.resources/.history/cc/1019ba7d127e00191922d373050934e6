@@ -1,0 +1,49 @@
+package exercices;
+
+public class PositionDuneLetre {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String  test =  "123456789" ;
+		int x = 10 ;
+		int taille = test.length();
+
+		String xc = new String() ;
+		xc = xc.valueOf(x) ;
+		//String variable = test.substring(0,1) ;
+		//System.out.println(variable);
+
+
+
+
+		for(int i  = 0 ; i<taille ; i++)
+		{
+
+
+			String alors =test.substring(i,i+1);
+			if(alors.equals("1") || alors.equals("2"))
+			{
+				System.out.println("ok");
+			}
+			else
+			{
+				System.out.println("Ne pas un nombre");
+			}
+
+
+
+		}
+		;
+		/*
+		if(variable.equals("1") || variable.equals("2"))
+		{
+			System.out.println("ok");
+		}
+		else
+		{
+			System.out.println("Ne pas un nombre");
+		}
+		 */
+	}
+
+}

@@ -1,0 +1,38 @@
+package exercices;
+
+import java.util.Scanner;
+
+public class VerificationNombre {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean statu =true ;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ajouter une valeur"); // affiche un message pour donner une valeur
+		String test =  sc.nextLine(); // Demande a l'utilisateur diserer quelque chose
+
+		int taille = test.length(); // verifie la taille du tableau
+
+		for(int i  = 0 ; i<taille ; i++)
+		{
+			String alors =test.substring(i,i+1); // veriefie une par une les element entre
+			if(!alors.equals("1") || !alors.equals("2") || !alors.equals("3") || !alors.equals("4")|| !alors.equals("5") || !alors.equals("6")|| !alors.equals("7") || !alors.equals("8") || !alors.equals("9")|| !alors.equals("0"))
+			{
+				statu = false ;
+			}
+
+
+
+		}
+		System.out.println(statu);
+		if(statu==true)
+		{
+			int nombre= Integer.valueOf(test);
+			System.out.println(nombre+nombre);
+		}
+
+		;
+
+	}
+
+}
