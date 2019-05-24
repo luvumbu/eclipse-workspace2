@@ -1,0 +1,22 @@
+package exercices;
+
+public class Exercice1 {
+
+	public static void main(String[] args) {
+
+		byte code1 ; // variable de -128 a 127
+		code1 = -128;
+		System.out.println(code1);
+		if(code1<10)
+		{
+			System.out.println("valeur inferrieur a 10 ");
+		}
+		else
+		{
+			System.out.println("Valeur plus grande que 10 ");
+		}
+
+
+	}
+
+}

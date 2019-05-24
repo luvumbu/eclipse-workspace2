@@ -1,0 +1,11 @@
+package exercices;
+
+public class CompetencesJava {
+
+	public static void main(String[] args) {
+		System.out.println("----Compétences Java----");
+
+
+	}
+
+}

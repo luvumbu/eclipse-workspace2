@@ -1,0 +1,17 @@
+package graven;
+
+public class Personnes {
+	private String   nom,prenom;
+	private double age;
+	public Personnes(String nom, String prenom, double age) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.age = age;
+	}
+	public Personnes() 
+	{
+		System.out.println("Constructeur a vide");
+	}
+
+}

@@ -1,0 +1,18 @@
+package exercices;
+
+public class Cj1a1 {
+	public Cj1a1()
+	{
+		System.out.println("Qu'est-ce que le plug-in Java ?");
+		System.out.println("Java est un langage de programmation populaire, créée en 1995.\\r\\n\" + \r\n" + 
+				"				\"\\r\\n\" + \r\n" + 
+				"				\"Il appartient à Oracle, et plus de 3 milliards de dispositifs exécuter Java.\\r\\n\" + \r\n" + 
+				"				\"\\r\\n\" + \r\n" + 
+				"				\"Il est utilisé pour:\"");
+		System.out.println("Java est un langage de programmation.\r\n" +
+				"\r\n" +
+				"Java est utilisé pour développer des applications "
+				+ "mobiles, des applications Web, des applications "
+				+ "de bureau, des jeux et bien plus encore.");
+	}
+}

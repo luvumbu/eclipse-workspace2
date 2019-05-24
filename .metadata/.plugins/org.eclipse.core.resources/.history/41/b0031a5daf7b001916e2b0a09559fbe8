@@ -1,0 +1,51 @@
+package graven;
+
+public class Players {
+	private String name ;
+	private double Strong ;
+	private int sante  ; 
+
+	public int getSante() {
+		return sante;
+	}
+	public void setSante(int sante) {
+		this.sante = sante;
+	}
+	public Players()
+	{
+
+	}
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getStrong() {
+		return this.Strong;
+	}
+
+	public void setStrong(double strong) {
+		this.Strong = strong;
+	}
+
+	public Players(String name, double strong) {
+
+		this.name = name;
+		this.Strong = strong;
+	}
+	@Override
+	public String toString() {
+		return "Players [name=" + this.name + ", Strong=" + this.Strong + "]";
+	}
+	
+	public  int  attaquer(int attaque)
+	{
+		this.sante = this.sante - attaque ; 
+		return this.sante ; 
+	}
+
+
+}

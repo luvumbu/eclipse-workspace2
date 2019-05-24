@@ -1,0 +1,38 @@
+package graven;
+
+public class Players {
+	private String name ;
+	private double Strong ;
+	
+	public Players() 
+	{
+		
+	}
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getStrong() {
+		return Strong;
+	}
+
+	public void setStrong(double strong) {
+		Strong = strong;
+	}
+
+	public Players(String name, double strong) {
+	
+		this.name = name;
+		Strong = strong;
+	}
+	@Override
+	public String toString() {
+		return "Players [name=" + name + ", Strong=" + Strong + "]";
+	}
+	
+
+}

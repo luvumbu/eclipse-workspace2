@@ -1,0 +1,11 @@
+package graven;
+
+public class Pomme extends Fruit {
+
+	@Override
+	public void nom() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

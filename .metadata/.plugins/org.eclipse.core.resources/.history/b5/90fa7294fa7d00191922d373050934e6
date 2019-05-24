@@ -1,0 +1,8 @@
+package exercices;
+
+public class CJ1a {
+	public CJ1a()
+	{
+		System.out.println("Bonjour java");
+	}
+}

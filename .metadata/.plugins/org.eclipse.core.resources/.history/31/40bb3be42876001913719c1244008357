@@ -1,0 +1,17 @@
+package com.aston.bank;
+
+/**
+ * Hello world!
+ *
+ */
+public class App
+{
+	public static void main( String[] args )
+	{
+
+
+
+		Client un = new Client("un", "un", 40, 45) ;
+		System.out.println(un);
+	}
+}

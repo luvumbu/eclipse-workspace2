@@ -1,0 +1,14 @@
+package graven;
+
+public class Joueur {
+
+	private String nom  ;
+	private String prenom ;
+	private double sante ;
+	private double force ;
+	private double endurence ;
+	private double magie ;
+	private double xp ;
+
+
+}

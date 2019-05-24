@@ -1,0 +1,13 @@
+package graven;
+
+public class Capital extends Ville {
+	private String  monument ;
+
+		public  Capital(String momnument)
+	{
+		super() ;
+
+	}
+	
+
+}

@@ -1,0 +1,12 @@
+package graven;
+
+public class Exe {
+
+
+	public static void main(String[] args) {
+
+     Personnes personne1 = new Personnes() ;
+
+	}
+
+}

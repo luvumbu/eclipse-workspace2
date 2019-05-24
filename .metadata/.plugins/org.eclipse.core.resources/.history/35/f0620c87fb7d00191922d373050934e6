@@ -1,0 +1,19 @@
+package exercices;
+
+public class CompetencesJava {
+
+	public static void main(String[] args) {
+		System.out.println("----Compétences Java----");
+		System.out.println("--Cj1a--.S’avoir Quesque c’est Java--");
+		System.out.println("--Cj1b--.S’avoir pourquoi est qu’on utilise Java ");
+		System.out.println("--Cj1c--. S’avoir l’utilisation de JRE");
+		System.out.println("--Cj1d--.S’avoir l’utilisation du JDK");
+		System.out.println("--Cj1e--.S’avoir installer java à l’aide du site oracle");
+		System.out.println("--Cj1f--.Exécuter un programme avec le JRE");
+		System.out.println("--Cj1g--.S’avoir installer le chemin global avec PATH dans l’environnement de travail");
+		System.out.println("\n\n");
+
+
+	}
+
+}

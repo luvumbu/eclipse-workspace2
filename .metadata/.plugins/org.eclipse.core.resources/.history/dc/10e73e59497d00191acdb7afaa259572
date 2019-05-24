@@ -1,0 +1,19 @@
+package exercices;
+
+public class Exerice2 {
+
+	public static void main(String[] args) {
+
+
+		Float x = new Float(456f);
+		// print the value as int
+		System.out.println(x.intValue());
+
+		// get a number as double
+		Double y = new Double(20);
+		// print the value as int
+		System.out.println(y.intValue());
+
+	}
+
+}

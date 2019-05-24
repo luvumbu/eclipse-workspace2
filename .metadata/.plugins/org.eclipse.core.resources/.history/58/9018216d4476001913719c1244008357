@@ -1,0 +1,19 @@
+package com.aston.bank;
+
+/**
+ * Hello world!
+ *
+ */
+public class App
+{
+	public static void main( String[] args )
+	{
+		Client c1 = new Client("ndenga", "Lvb", 25, 1) ;
+		Client c2 = new Client("Sofian", "Lvb", 19, 2) ;
+		Client c3 = new Client("Aicha", "Lvb", 23, 3) ;
+		Client c4 = new Client("Alex", "Lvb", 15, 4) ;
+
+
+
+	}
+}

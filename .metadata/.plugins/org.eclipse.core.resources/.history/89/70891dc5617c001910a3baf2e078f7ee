@@ -1,0 +1,40 @@
+package graven;
+
+public class Personnes {
+	private String   nom,prenom;
+	private double age;
+	public Personnes(String nom, String prenom, double age) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.age = age;
+	}
+	public Personnes()
+	{
+		System.out.println("Constructeur a vide");
+	}
+	public String getNom() {
+		return this.nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getPrenom() {
+		return this.prenom;
+	}
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	public double getAge() {
+		return this.age;
+	}
+	public void setAge(double age) {
+		this.age = age;
+	}
+	@Override
+	public String toString() {
+		return "Personnes [nom=" + this.nom + ", prenom=" + this.prenom + ", age=" + this.age + "]";
+	}
+
+
+}

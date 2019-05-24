@@ -1,0 +1,17 @@
+package graven;
+
+public class Exe {
+
+
+	public static void main(String[] args) {
+
+		Ville ville = new Ville();
+		Ville ville1 = new Ville("Marseille","France");
+		Capital capital = new Capital("France") ;
+		capital.setNomVille("Luanda");
+		System.out.println( capital.getNomVille());
+
+
+	}
+
+}

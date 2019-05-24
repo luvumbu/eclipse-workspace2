@@ -1,0 +1,16 @@
+package exercices;
+
+public class Exercice3 {
+
+	public static void main(String[] args) {
+
+
+		String s = "Stringsareimmutable";
+		char result = s.charAt(1);
+		System.out.println(result);
+
+	}
+
+
+
+}

@@ -1,0 +1,18 @@
+package graven;
+
+public class Capitale extends Ville{
+	
+	
+	private  String monument ;
+	public Capitale()
+	{
+		super();
+		this.monument = "aucun" ;
+		this.nomVille = "toto";
+		
+
+
+	}
+
+
+}

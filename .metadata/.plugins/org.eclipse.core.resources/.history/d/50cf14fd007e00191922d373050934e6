@@ -1,0 +1,12 @@
+package exercices;
+
+public class Motcle {
+	public static void application()
+	{
+		System.out.println("application");
+	}
+	
+
+
+
+}

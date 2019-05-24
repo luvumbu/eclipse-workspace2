@@ -1,0 +1,47 @@
+package exercices;
+
+public class Exercice1 {
+
+	public static void main(String[] args) {
+
+
+		byte byte1 = 10 ; // création d'un byte
+		System.out.println("Le byte est une variable qui va de -127 a 128");
+		System.out.println("La valeur de mon byte est de "+ byte1);
+		short short1 = 250 ; //-32768 et +32767.
+		System.out.println("Variable short qui va de -32768 et +32767.");
+		System.out.println("La valeur de mon short est de " +short1);
+		int int1 = 60000 ;
+		System.out.println("Le type int(4 octets) va de -2*109 à 2*109 ");
+		System.out.println("La valeur de mon int est de  " + int1);
+		long long1 = 8000000000000L;
+		System.out.println("Le type long (8 octets) peut aller de −9×1018  à 9×1018 (encore plus gros…).");
+		System.out.println("La valeur de mon Long est de " + long1);
+		float float1 = 354845.45f ;
+		System.out.println("Le typefloat(4 octets) est utilisé pour les nombres avec une virgule flottante.");
+		System.out.println("La valeur du float1 est de "+float1);
+		System.out.println("Le typedouble(8 octets) est identique àfloat, si ce n'est qu'il contient plus de chiffres derrière la virgule et qu'il n'a pas de suffixe");
+		char char1 = 'A';
+		System.out.println("Le typecharcontient un caractère stocké entre apostrophes (« ' ' »), comme ceci :");
+		System.out.println("La valeur de char1 est de " + char1);
+		boolean boolean1 = true ;
+		System.out.println("Variable vrai ou fausse");
+		String String1 = "Je suis un String" ;
+		System.out.println("Le typeStringpermet de gérer les chaînes de caractères, c'est-à-dire le stockage de texte.");
+		byte byte2 =0 , byte3 =14, byte4 = 25 ,byte5 = 100 ;
+
+		byte4 = (byte) ((byte1) + (byte2)) ;
+		System.out.println("La somme de deux byte est egale a " + byte4);
+		System.out.println("Utilisation du modulo");
+		int modulo1 = 10 , modulo2 =3,modulototal;
+		modulototal = modulo1 % modulo2 ;
+		System.out.println(modulototal);
+		System.out.println("Melange entre nombre entier et modulo");
+	
+		int inttotal = 5/3;
+		System.out.println(inttotal);
+
+
+	}
+
+}

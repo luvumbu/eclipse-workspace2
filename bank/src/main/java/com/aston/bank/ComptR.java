@@ -1,0 +1,16 @@
+package com.aston.bank;
+
+
+public class ComptR  extends Client{
+
+	private  double  seuil;
+
+	public ComptR(String nom, String prenom, int age, int numero) {
+		super(nom, prenom, age, numero);
+	}
+
+
+
+
+
+}

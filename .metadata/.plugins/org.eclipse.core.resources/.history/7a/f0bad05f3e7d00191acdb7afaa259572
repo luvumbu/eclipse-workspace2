@@ -1,0 +1,25 @@
+package exercices;
+
+public class Exercice1 {
+
+	public static void main(String[] args) {
+
+
+		byte byte1 = 10 ; // création d'un byte
+		System.out.println("Le byte est une variable qui va de -127 a 128");
+		System.out.println("La valeur de mon byte est de "+ byte1);
+		short short1 = 250 ; //-32768 et +32767.
+		System.out.println("Variable short qui va de -32768 et +32767.");
+		System.out.println("La valeur de mon short est de " +short1);
+		int int1 = 60000 ;
+		System.out.println("Le type int(4 octets) va de -2*109 à 2*109 ");
+		System.out.println("La valeur de mon int est de  " + int1);
+		long long1 = 8000000000000L;
+		System.out.println("Le type long (8 octets) peut aller de −9×1018  à 9×1018 (encore plus gros…).");
+		System.out.println("La valeur de mon Long est de " + long1);
+
+
+
+	}
+
+}

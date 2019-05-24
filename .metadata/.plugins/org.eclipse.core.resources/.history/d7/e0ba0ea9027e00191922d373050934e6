@@ -1,0 +1,18 @@
+package exercices;
+
+public class CompetencesJava {
+
+	public static void main(String[] args) {
+		System.out.println("----Compétences Java----");
+		System.out.println("--Cj1a1--.S’avoir Quesque c’est Java--");
+		
+
+
+		
+	
+		Cj1a1 un = new Cj1a1() ;
+
+
+	}
+
+}

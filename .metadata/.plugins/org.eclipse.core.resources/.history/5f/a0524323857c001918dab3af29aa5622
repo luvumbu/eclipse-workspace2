@@ -1,0 +1,30 @@
+package global;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Connect {
+
+
+	public static void main ( String [] args )
+	{
+		try
+
+		{
+			// chargement d'un drrive Mysql
+			Class.forName("com.mysql.jdbc.Driver") ;
+			System.out.println("Driver  OK ! " ) ;
+			String url ="jdbc:mysql://localhost:3306/global" ;
+			String user  ="root" ;
+			String passwd ="root";
+			Connection conn = DriverManager.getConnection(url,user,passwd) ;
+			System.out.println("Connection effective ! ") ;
+		}
+		catch ( Exception e )
+		{
+
+			e.printStackTrace() ;
+		}
+	}
+}
+

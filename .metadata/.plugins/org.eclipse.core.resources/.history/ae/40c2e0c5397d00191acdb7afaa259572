@@ -1,0 +1,15 @@
+package exercices;
+
+public class Exercice1 {
+
+	public static void main(String[] args) {
+		char caractere;
+		caractere = 'A';
+		
+		String test = "jesuis un test" ; 
+		System.out.println(test);
+
+
+	}
+
+}

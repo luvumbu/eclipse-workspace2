@@ -1,0 +1,16 @@
+package exercices;
+
+public class Exerice2 {
+
+	public static void main(String[] args) {
+
+
+		Integer intobject = 45;
+
+		// Returns the value of this Integer as an int
+		int i = intobject.intValue();
+		System.out.println("The integer Value of i = " + i+i);
+
+	}
+
+}

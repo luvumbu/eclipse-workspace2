@@ -1,0 +1,46 @@
+package graven;
+
+public class Players {
+	private String name ;
+	private double Strong ;
+	private int sante  ;
+	public Players()
+	{
+		System.out.println("Constructeur vide");
+	}
+	public String getName() {
+		return this.name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getStrong() {
+		return this.Strong;
+	}
+	public void setStrong(double strong) {
+		this.Strong = strong;
+	}
+	public int getSante() {
+		return this.sante;
+	}
+	public void setSante(int sante) {
+		this.sante = sante;
+	}
+	public Players(String name, double strong, int sante) {
+
+		this.name = name;
+		this.Strong = strong;
+		this.sante = sante;
+	}
+	public int  attaquer(int attaquer)
+	{
+		return this.sante = this.sante - attaquer;
+	}
+	public void dommage(int dommage) 
+	{
+		this.sante = this.sante - dommage ; 
+	}
+
+
+
+}

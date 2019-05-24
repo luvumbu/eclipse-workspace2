@@ -1,0 +1,12 @@
+package exercices;
+
+public class CJ1a {
+	public CJ1a()
+	{
+		System.out.println("Java est un langage de programmation.\r\n" + 
+				"\r\n" + 
+				"Java est utilisé pour développer des applications "
+				+ "mobiles, des applications Web, des applications "
+				+ "de bureau, des jeux et bien plus encore.");
+	}
+}

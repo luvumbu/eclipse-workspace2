@@ -1,0 +1,22 @@
+package graven;
+
+public class Exo1 {
+
+	public static void main(String[] args) {
+
+
+
+		action() ;
+
+
+
+
+
+
+	}
+	private static void action()
+	{
+		System.out.println("ACTION n1");
+	}
+
+}

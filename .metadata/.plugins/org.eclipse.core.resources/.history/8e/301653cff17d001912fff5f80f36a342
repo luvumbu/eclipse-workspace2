@@ -1,0 +1,17 @@
+package exercices;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+
+		int  vl1 = 10 ; 
+		int vl2 = 15 ; 
+		
+		int vx = vl1/vl2 ; 
+		System.out.println(vx);
+
+	}
+	
+
+}

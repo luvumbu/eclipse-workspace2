@@ -1,0 +1,19 @@
+package exercices;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+
+		int i = 12;
+
+		String j = new String();
+		
+		j = j.valueOf(i);
+		System.out.println(j+j);
+		int k = Integer.valueOf(j).intValue();
+
+	}
+
+
+}

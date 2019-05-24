@@ -1,0 +1,15 @@
+package exercices;
+
+public class Exerice2 {
+
+	public static void main(String[] args) {
+
+
+		int i = 12;
+		String j = new String();
+		j = j.valueOf(i);
+		int k = Integer.valueOf(j);
+		System.out.println(k);
+	}
+
+}

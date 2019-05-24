@@ -1,0 +1,6 @@
+package graven;
+
+public abstract class Fruit {
+	public abstract void nom()  ;
+	
+}

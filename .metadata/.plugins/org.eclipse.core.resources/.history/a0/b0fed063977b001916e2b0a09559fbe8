@@ -1,0 +1,17 @@
+package graven;
+
+public class Exo2 {
+
+	public static void main(String[] args) {
+		// création des variables
+		// utilisation du String et du INT
+		int age = 15 ; 
+		
+		boolean types = true ;
+		System.out.println(types);
+		
+
+
+	}
+
+}

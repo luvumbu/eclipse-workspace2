@@ -1,0 +1,26 @@
+package graven;
+
+public class Joueur {
+
+	
+	private String nom ; 
+	private String prenom ; 
+	private int sante ;
+	private int force ;
+	
+	public Joueur(String nom, String prenom, int sante, int force) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.sante = sante;
+		this.force = force;
+	} 
+	public Joueur() 
+	{
+		System.out.println("Constructeur vide");
+	}
+	
+
+
+
+}

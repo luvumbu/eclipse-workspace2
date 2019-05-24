@@ -1,0 +1,24 @@
+package exercices;
+import java.util.Scanner; // il faut importer la classe obligatoire
+public class Clavier {
+
+	public static void main(String[] args) {
+
+		// Utilisation de la classe Clavier
+		Scanner sc = new Scanner(System.in) ;
+
+		int  intn  = sc.nextInt() ; // appel de la methode int
+		double doublen = sc.nextDouble(); // appel d'un double
+		String Stringn = sc.next(); // appel d'un String
+
+		/*
+		 L'appelation c'est fait en fonction du type de la variable
+
+		 */
+
+
+	}
+
+
+
+}

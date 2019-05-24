@@ -1,0 +1,9 @@
+package graven;
+
+public class Capital extends Ville {
+
+	public Capital()
+	{
+		this.nomVille = "Fromage" ; 
+	}
+}

@@ -1,0 +1,14 @@
+package graven;
+
+public class Exe {
+
+
+	public static void main(String[] args) {
+
+		Personnes personne1 = new Personnes("luvumbu","ndenga",27) ;
+		personne1.setAge(28);
+		System.out.println(personne1.toString());
+
+	}
+
+}

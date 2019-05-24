@@ -1,0 +1,66 @@
+package graven;
+
+public class Joueur {
+
+
+	private String nom ;
+	private String prenom ;
+	private int sante ;
+	private int force ;
+
+	public Joueur(String nom, String prenom, int sante, int force) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.sante = sante;
+		this.force = force;
+	}
+	public Joueur()
+	{
+		System.out.println("Constructeur vide");
+	}
+	public String getNom() {
+		return this.nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getPrenom() {
+		return this.prenom;
+	}
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	public int getSante() {
+		return this.sante;
+	}
+	public void setSante(int sante) {
+		this.sante = sante;
+	}
+	public int getForce() {
+		return this.force;
+	}
+	public void setForce(int force) {
+		this.force = force;
+	}
+	public int  attaque(int attaquer)
+	{
+		this.sante= this.sante - attaquer ;
+		return this.sante;
+	}
+	public int domage( int domage)
+	{
+		System.out.println(nom+"viens de subir des degats");
+		return domage ;
+	}
+	@Override
+	public String toString() {
+		return "Joueur [nom=" + this.nom + ", prenom=" + this.prenom + ", sante=" + this.sante + ", force=" + this.force + "]";
+	}
+
+
+
+
+
+
+}

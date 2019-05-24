@@ -1,0 +1,10 @@
+package CoursExercices;
+
+public class Sources {
+
+	public static void main(String[] args) {
+		System.out.println("https://openclassrooms.com/fr/courses/26832-apprenez-a-programmer-en-java/20304-installez-les-outils-de-developpement");
+
+	}
+
+}

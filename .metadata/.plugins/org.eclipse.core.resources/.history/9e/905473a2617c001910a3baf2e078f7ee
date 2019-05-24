@@ -1,0 +1,16 @@
+package graven;
+
+public class Exe {
+
+
+	public static void main(String[] args) {
+
+		Personnes personne1 = new Personnes("luvumbu","ndenga",27) ;
+		System.out.println(personne1.toString());
+		Children enfant = new Children() ;
+			enfant.setNom("lubumbu");
+		System.out.println(enfant.getNom());
+
+	}
+
+}

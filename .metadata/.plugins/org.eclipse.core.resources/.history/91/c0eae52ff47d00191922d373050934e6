@@ -1,0 +1,17 @@
+package exercices;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+
+	int variable1 = 1 , variable2 = 2 , variable3 = 3 ;
+	String String1 = new String() ; 
+	String String2 = "x" ;
+	String2 = String2.valueOf(variable1) ;
+	System.out.println(String2);
+
+	}
+
+
+}

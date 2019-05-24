@@ -1,0 +1,16 @@
+package exercices;
+
+public class Exercice1 {
+
+	public static void main(String[] args) {
+
+		byte code1 ; // variable de -128 a 127
+		code1 = 127;
+		code1 = (byte) (code1 + code1);
+		System.out.println(code1);
+
+
+
+	}
+
+}

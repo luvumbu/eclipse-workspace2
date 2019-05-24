@@ -1,0 +1,17 @@
+package exercices;
+
+
+public class Clavier {
+
+	public static void main(String[] args) {
+
+
+		String  test =  "untest" ;
+		System.out.println(	test.substring(1,1));
+
+
+	}
+
+
+
+}

@@ -1,0 +1,71 @@
+package graven;
+
+public class Joueur {
+	private String nom = "Inconnue" ;
+	private String prenom  = "Inconnue";
+	private double sante  = 500;
+	private double force = 5 ;
+	private double endurence = 1 ;
+	private double magie  = 0 ;
+	private double xp  = 0 ;
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getPrenom() {
+		return prenom;
+	}
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	public double getSante() {
+		return sante;
+	}
+	public void setSante(double sante) {
+		this.sante = sante;
+	}
+	public double getForce() {
+		return force;
+	}
+	public void setForce(double force) {
+		this.force = force;
+	}
+	public double getEndurence() {
+		return endurence;
+	}
+	public void setEndurence(double endurence) {
+		this.endurence = endurence;
+	}
+	public double getMagie() {
+		return magie;
+	}
+	public void setMagie(double magie) {
+		this.magie = magie;
+	}
+	public double getXp() {
+		return xp;
+	}
+	public void setXp(double xp) {
+		this.xp = xp;
+	}
+	public Joueur(String nom, String prenom, double sante, double force, double endurence, double magie, double xp) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.sante = sante;
+		this.force = force;
+		this.endurence = endurence;
+		this.magie = magie;
+		this.xp = xp;
+	}
+
+	public Joueur()
+	{
+		System.out.println("Paramettres vide");
+	}
+
+
+
+}

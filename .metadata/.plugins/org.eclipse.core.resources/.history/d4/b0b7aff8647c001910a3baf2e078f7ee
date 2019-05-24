@@ -1,0 +1,21 @@
+package graven;
+
+public class Exe {
+
+
+
+
+	public static void main(String[] args) {
+
+
+
+
+		ville1.getClass();
+		Capitale capitale1 = new Capitale() ;
+
+
+
+
+	}
+
+}

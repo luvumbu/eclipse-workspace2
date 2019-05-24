@@ -1,0 +1,18 @@
+package exercices;
+
+public class Motcle {
+	public static void application()
+	{
+		System.out.println("application");
+		System.out.println("Une application, un applicatif ou encore une "
+				+ "appli, une app est, dans le domaine informatique, un"
+				+ " programme (ou un ensemble logiciel) directement"
+				+ " utilisé pour réaliser une tâche, ou un ensemble de "
+				+ "tâches élémentaires d'un même domaine ou formant un "
+				+ "tout.");
+	}
+
+
+
+
+}

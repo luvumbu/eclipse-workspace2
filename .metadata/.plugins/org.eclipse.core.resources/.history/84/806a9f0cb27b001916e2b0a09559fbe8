@@ -1,0 +1,17 @@
+package graven;
+
+public class Exe {
+
+	public static void main(String[] args) {
+		Players player1 = new Players() ;
+		player1.setName("luvumbu");
+		player1.setStrong(10);
+
+		System.out.println(player1.toString());
+		player1.setSante(15000);
+		player1.attaquer(5) ;
+		System.out.println(	player1.getSante());
+
+	}
+
+}

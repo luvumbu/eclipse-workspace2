@@ -1,0 +1,15 @@
+package exercices;
+
+public class Exercice1 {
+
+	public static void main(String[] args) {
+
+
+		byte valeur1 = 10 ; //
+		System.out.println("Le byte est une variable qui va de -127 a 128");
+		System.out.println("La valeur de mon byte est de "+ valeur1);
+
+
+	}
+
+}

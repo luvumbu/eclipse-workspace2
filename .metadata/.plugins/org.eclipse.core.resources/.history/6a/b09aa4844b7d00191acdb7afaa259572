@@ -1,0 +1,22 @@
+package exercices;
+import java.io.InputStream;
+import java.util.Scanner;
+
+public class Exercice3 {
+
+	public static void main(String[] args) {
+		// utilisation de Scanner
+		Scanner sc = new Scanner(System.in);
+		
+	     int i = sc.nextInt();
+System.out.println(i);
+
+
+	}
+
+	private static int nextInt(InputStream in) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

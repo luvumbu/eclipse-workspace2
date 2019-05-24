@@ -1,0 +1,15 @@
+package com.aston.bank;
+
+/**
+ * Hello world!
+ *
+ */
+public class App
+{
+	public static void main( String[] args )
+	{
+			Client c1 = new Client("ndenga", "Lvb", 25, 1) ;
+			
+			System.out.println(c1.getAge());
+	}
+}
